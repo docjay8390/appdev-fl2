@@ -6,16 +6,19 @@
 
   <!-- tailwind Links-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+
+<!-- Navbar -->
 
 <section>
   
   <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="./images/My- Logo.jpg.png" class="h-8" alt="Flowbite Logo" />
+          <img src="./images/My- Logo.jpg.png" class="h-8" alt="Logo" />
       </a>
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
@@ -46,144 +49,234 @@
   </nav>
 </section>
 
-  <!-- Hero Section -->
 
-<section>
-	<div class="bg-black text-white py-5">
-		<div class="container mx-auto flex md:flex-row items-center mb-3 my-12 md:my-24">
-			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
-				<h1 class="text-3xl md:text-5xl text-yellow-300 tracking-loose">Farm Rice</h1>
-				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Golden Harvest
-				</h2>
-				<p class="text-sm md:text-base text-gray-50 mb-4">Discover Philippine farm rice: Tradition, flavor and rich agricultural heritage await.</p>
-				<a href="#"
-					class="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-					Explore Now</a>
-			</div>
-			
-      <div class="h-48 flex flex-wrap content-center">
-        <div>
-          <img class="inline-block hidden xl:block max-w-screen-sm ml-20" src="./images/rice-field.avif">
-        </div>
+<!-- Hero Section -->
+
+<section class="bg-gray-900 text-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+    <div class="mx-auto max-w-3xl text-center">
+      <h1
+        class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+      >
+        Understand User Flow.
+
+        <span class="sm:block"> Increase Conversion. </span>
+      </h1>
+
+      <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
+        numquam ea!
+      </p>
+
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          href="#"
+        >
+          Get Started
+        </a>
+      </div>
     </div>
-</section>
-
-    <!-- Carousel -->
-
-<section class="border-t">
-
-  <div id="default-carousel" class="relative w-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden md:h-96">
-        <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="./images/agri01-111821.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="./images/Female-Farmers.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="./images/Rice.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-    </div>
-    <!-- Slider indicators -->
-    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-    </div>
-    <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
   </div>
-
-</section>
-
-  
-  <!-- Card -->
-<section class="flex flex-wrap justify-evenly items-center bg-black gap-y-5 pt-12 pb-12">
-  
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <a href="#">
-          <img class="rounded-t-lg" src="./images/agri01-111821.jpg" alt="" />
-      </a>
-      <div class="p-5">
-          <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PH Rice Self-Sufficiency: A Dream Within Reach?</h5>
-          </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Philippines targets rice self-sufficiency, with agriculture department reporting production boost amidst ongoing challenges.</p>
-          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Read more
-              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-          </a>
-      </div>
-    </div>
-
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <a href="#">
-          <img class="rounded-t-lg" src="./images/Female-Farmers.jpg" alt="" />
-      </a>
-      <div class="p-5">
-          <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Filipina Farmers: Cultivating Change in the Rice Fields</h5>
-          </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Filipinas revolutionize rice farming, embracing sustainability and leadership. Gender equality initiatives amplify their impact in agriculture.</p>
-          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Read more
-              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-          </a>
-      </div>
-    </div>
-
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <a href="#">
-          <img class="rounded-t-lg" src="./images/Rice.jpg" alt="" />
-      </a>
-      <div class="p-5">
-          <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beyond the Grain: The Cultural Significance of Philippine Rice</h5>
-          </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rice is integral to Filipino culture, explored through traditions like Banaue and "Pahiyas," emphasizing communal bonds and identity.</p>
-          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Read more
-              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-          </a>
-      </div>
-    </div>
 </section>
 
 
-  <!-- Google Map -->
+<!-- blogs -->
+
+<section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20">
+  <div class="container">
+     <div class="flex flex-wrap justify-center -mx-4">
+        <div class="w-full px-4">
+           <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+              <h2
+                 class="
+                 font-bold
+                 text-3xl
+                 sm:text-4xl
+                 md:text-[40px]
+                 text-dark
+                 mb-4
+                 "
+                 >
+                 Our Recent News
+              </h2>
+              <p class="text-base text-body-color">
+                 There are many variations of passages of Lorem Ipsum available
+                 but the majority have suffered alteration in some form.
+              </p>
+           </div>
+        </div>
+     </div>
+     <div class="flex flex-wrap -mx-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+           <div class="max-w-[370px] mx-auto mb-10">
+              <div class="rounded overflow-hidden mb-8">
+                 <img
+                    src="./images/agri01-111821.jpg"
+                    alt="image"
+                    class="w-full"
+                    />
+              </div>
+              <div>
+                 <span
+                    class="
+                    bg-primary
+                    rounded
+                    inline-block
+                    text-center
+                    py-1
+                    px-4
+                    text-xs
+                    leading-loose
+                    font-semibold
+                    text-white
+                    mb-5
+                    "
+                    >
+                 Dec 22, 2023
+                 </span>
+                 <h3>
+                    <a
+                       href="javascript:void(0)"
+                       class="
+                       font-semibold
+                       text-xl
+                       sm:text-2xl
+                       lg:text-xl
+                       xl:text-2xl
+                       mb-4
+                       inline-block
+                       text-dark
+                       hover:text-primary
+                       "
+                       >
+                    Meet AutoManage, the best AI management tools
+                    </a>
+                 </h3>
+                 <p class="text-base text-body-color">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                 </p>
+              </div>
+           </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+           <div class="max-w-[370px] mx-auto mb-10">
+              <div class="rounded overflow-hidden mb-8">
+                 <img
+                    src="./images/Ph-Farm-home-page.jpg"
+                    alt="image"
+                    class="w-full"
+                    />
+              </div>
+              <div>
+                 <span
+                    class="
+                    bg-primary
+                    rounded
+                    inline-block
+                    text-center
+                    py-1
+                    px-4
+                    text-xs
+                    leading-loose
+                    font-semibold
+                    text-white
+                    mb-5
+                    "
+                    >
+                 Mar 15, 2023
+                 </span>
+                 <h3>
+                    <a
+                       href="javascript:void(0)"
+                       class="
+                       font-semibold
+                       text-xl
+                       sm:text-2xl
+                       lg:text-xl
+                       xl:text-2xl
+                       mb-4
+                       inline-block
+                       text-dark
+                       hover:text-primary
+                       "
+                       >
+                    How to earn more money as a wellness coach
+                    </a>
+                 </h3>
+                 <p class="text-base text-body-color">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                 </p>
+              </div>
+           </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+           <div class="max-w-[370px] mx-auto mb-10">
+              <div class="rounded overflow-hidden mb-8">
+                 <img
+                    src="./images/Female-Farmers.jpg"
+                    alt="image"
+                    class="w-full"
+                    />
+              </div>
+              <div>
+                 <span
+                    class="
+                    bg-primary
+                    rounded
+                    inline-block
+                    text-center
+                    py-1
+                    px-4
+                    text-xs
+                    leading-loose
+                    font-semibold
+                    text-white
+                    mb-5
+                    "
+                    >
+                 Jan 05, 2023
+                 </span>
+                 <h3>
+                    <a
+                       href="javascript:void(0)"
+                       class="
+                       font-semibold
+                       text-xl
+                       sm:text-2xl
+                       lg:text-xl
+                       xl:text-2xl
+                       mb-4
+                       inline-block
+                       text-dark
+                       hover:text-primary
+                       "
+                       >
+                    The no-fuss guide to upselling and cross selling
+                    </a>
+                 </h3>
+                 <p class="text-base text-body-color">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                 </p>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
+
+
+<!-- Google Map -->
 
 <section class="p-5 bg-black">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15417.343718880255!2d120.56703643600231!3d14.974046068921414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33965f09038b9595%3A0x355cffde76d18810!2sSan%20Roque%20Dau%2C%20Lubao%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1717469713690!5m2!1sen!2sph" width="100%" height="550" style="border: 3px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
-  <!-- Footer -->
 
-  
+<!-- Footer -->
 
 <footer class="bg-white dark:bg-gray-900">
   <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -273,7 +366,7 @@
 
 </body>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+<!-- Script Tailwind -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </html>
