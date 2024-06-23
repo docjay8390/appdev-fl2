@@ -12,9 +12,9 @@
   <section>
   
     <nav class="border-gray-200 bg-gray-900 fixed w-full">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div class="w-full flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="./images/My- Logo.jpg.png" class="h-8" alt="Logo" />
+            <img src="./images/logo-removebg-preview.jpg" class="h-20" alt="Logo" />
         </a>
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
@@ -22,19 +22,19 @@
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <div class="hidden w-full md:block md:w-auto " id="navbar-default">
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-gray-900 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+              <a href="#home" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
+              <a href="#about" class="block py-2 px-3 text-white rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
             </li>
             <li>
-              <a href="#download" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Download</a>
+              <a href="#download" class="block py-2 px-3 text-white rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Download</a>
             </li>
             <li>
-              <a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+              <a href="#contact" class="block py-2 px-3 text-white rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent mr-9">Contact</a>
             </li>
           </ul>
         </div>
@@ -44,14 +44,13 @@
   
   
   <!-- Hero Section -->
-  
-  <section class="bg-gray-900 text-white">
+  <section id="home" class="bg-gray-900 text-white">
     <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
       <div class="mx-auto max-w-3xl text-center">
         <h1
           class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl pb-2"
         >
-        "Harvesting Prosperity: Rice Farming in the Philippines"
+          "Harvesting Prosperity: Rice Farming in the Philippines"
         </h1>
   
         <div class="mt-8 flex flex-wrap justify-center gap-4">
@@ -67,8 +66,7 @@
   </section>
   
   
-  <!-- blogs -->
-  
+  <!-- blogs --> 
   <section id="blogs" class="lg:pt-[100px] pb-10 lg:pb-20">
     <div class="container">
        <div class="flex flex-wrap justify-center -mx-4">
@@ -82,6 +80,7 @@
                    md:text-[40px]
                    text-dark
                    mb-4
+                   mt-10
                    "
                    >
                    Our Recent News
@@ -274,9 +273,9 @@
   
   <!-- second article -->
   <section class="">
-     <div class="bg-white dark:text-gray-900 mb-20">
-        <div class="container grid grid-cols-12 mx-auto dark:bg-gray-100  p-5">
-           <div class="bg-no-repeat bg-cover dark:bg-gray-300 col-span-full lg:col-span-4" style="background-image: url('./pages/images/farmriceflood.webp'); background-position: center center; background-blend-mode: multiply; background-size: cover;"></div>
+     <div class="bg-gray-200 dark:text-gray-900 mb-20">
+        <div class="container grid grid-cols-12 mx-auto bg-gray-200  p-5">
+           <div class="bg-no-repeat bg-cover bg-gray-200 col-span-full lg:col-span-4" style="background-image: url('./pages/images/farmriceflood.webp'); background-position: center center; background-blend-mode: multiply; background-size: cover;"></div>
            <div class="flex flex-col p-6 col-span-full row-span-full lg:col-span-8 lg:p-10">
               <div class="flex justify-start">
                  <span class="px-2 py-1 text-xs rounded-full dark:bg-violet-600 dark:text-gray-50">News #4</span>
@@ -302,7 +301,7 @@
         </div>
      </div>
   </section>
-  
+  <br><br>
   
   <!-- Third article -->
   <section class="dark:bg-white dark:text-gray-800">
@@ -375,18 +374,50 @@
     </div>
   </section>
   
+
+  <!-- Fourth article  -->
+  <section>
+    <div class="sliderAx h-auto">
+        <div id="slider-1" class="container mx-auto">
+          <div class="bg-cover bg-center h-auto text-white py-24 px-10 object-fill" style="background-image: url(./images/farm-farm-person.avif)">
+         <div class="md:w-1/2">
+            <p class="font-bold text-sm uppercase">News #8</p>
+            <p class="text-3xl font-bold">Farm Rice</p>
+            <p class="text-2xl mb-10 leading-none">Philippine Rice Output Forecast to Rise in 2022 Despite Challenges" - ABS-CBN News, March 15, 2022</p>
+            <a href="./pages/abscn.html" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Learn more</a>
+          </div>  
+        </div>
+        <br>
+        </div>
+  
+        <div id="slider-2" class="container mx-auto">
+          <div class="bg-contain h-auto text-white py-24 px-10 object-fill" style="background-image: url(./images/trucktor.jpeg)">
+            <p class="font-bold text-sm uppercase">News #10</p>
+            <p class="text-3xl font-bold">Farmers in Mindanao</p>
+            <p class="text-2xl mb-10 leading-none">Rice Farmers in Mindanao Adopting New Technologies to Boost Yields</p>
+            <a href="./pages/mindanao.html" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Learn more</a>
+
+          </div>
+          <br>
+        </div>
+      </div>
+      <div  class="flex justify-between w-12 mx-auto pb-2">
+          <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400 rounded-full w-4 pb-2 " ></button>
+          <button id="sButton2" onclick="sliderButton2() " class="bg-purple-400 rounded-full w-4 p-2"></button>
+    </div>
+  </section>
+  
   
   <!-- Google Map -->
-  
   <section class="p-5">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15417.343718880255!2d120.56703643600231!3d14.974046068921414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33965f09038b9595%3A0x355cffde76d18810!2sSan%20Roque%20Dau%2C%20Lubao%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1717469713690!5m2!1sen!2sph" width="100%" height="550" style="border: 3px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
   
   
   <!-- About us -->
-  <section id="about">
+  <section id="about" class="h-screen flex items-center justify-center flex-row-reverse">
     <div class="sm:flex items-center max-w-screen-xl">
-      <div class="sm:w-1/2 p-10">
+      <div class="sm:w-1/2 p-4">
           <div class="image object-center text-center">
               <img src="./pages/images/about.jpg">
           </div>
@@ -396,7 +427,7 @@
               <span class="text-gray-500 border-b-2 border-indigo-600 uppercase">About us</span>
               <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600">Our Company</span>
               </h2>
-              <p class="text-gray-700">
+              <p class="text-gray-700 text-3xl">
                 Our company is dedicated to providing the latest news and insights on Philippine rice farming. We aim to support farmers with timely information, innovative practices, and expert advice to enhance their productivity and sustainability.
               </p>
           </div>
@@ -406,7 +437,7 @@
   
   
   <!-- Download -->
-  <section id="download" class="py-6 dark:bg-gray-100 dark:text-gray-900">
+  <section id="download" class="py-6 bg-gray-100 dark:text-gray-900">
     <div class="container mx-auto flex flex-col justify-around p-4 text-center md:p-10 lg:flex-row">
       <div class="flex flex-col justify-center lg:text-left">
         <p class="mb-1 text-sm font-medium tracking-widest uppercase dark:text-violet-600">Rice News PH</p>
@@ -434,7 +465,7 @@
       </div>
     </div>
   </section>
-  
+  <br><br><br><br>
   
   <!-- Footer -->
   <footer id="contact" class="bg-white border-t-2 border-gray">
@@ -525,25 +556,6 @@
                  </svg>
                </a>
              </li>
-   
-             <li>
-               <a
-                 href="#"
-                 rel="noreferrer"
-                 target="_blank"
-                 class="text-gray-700 transition hover:opacity-75"
-               >
-                 <span class="sr-only">Dribbble</span>
-   
-                 <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                   <path
-                     fill-rule="evenodd"
-                     d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                     clip-rule="evenodd"
-                   />
-                 </svg>
-               </a>
-             </li>
            </ul>
          </div>
    
@@ -627,10 +639,83 @@
        <p class="text-sm text-gray-500">&copy; 2022. Fernando, Bernie. All rights reserved.</p>
      </div>
   </footer>
-<!-- Navbar -->
 
 
 </body>
+
+<!-- JavaScript -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script>
+var cont=0;
+function loopSlider(){
+var xx= setInterval(function(){
+      switch(cont)
+      {
+      case 0:{
+          $("#slider-1").fadeOut(400);
+          $("#slider-2").delay(400).fadeIn(400);
+          $("#sButton1").removeClass("bg-purple-800");
+          $("#sButton2").addClass("bg-purple-800");
+      cont=1;
+      
+      break;
+      }
+      case 1:
+      {
+      
+          $("#slider-2").fadeOut(400);
+          $("#slider-1").delay(400).fadeIn(400);
+          $("#sButton2").removeClass("bg-purple-800");
+          $("#sButton1").addClass("bg-purple-800");
+         
+      cont=0;
+      
+      break;
+      }
+      
+      
+      }},8000);
+
+}
+
+function reinitLoop(time){
+clearInterval(xx);
+setTimeout(loopSlider(),time);
+}
+
+
+
+function sliderButton1(){
+
+  $("#slider-2").fadeOut(400);
+  $("#slider-1").delay(400).fadeIn(400);
+  $("#sButton2").removeClass("bg-purple-800");
+  $("#sButton1").addClass("bg-purple-800");
+  reinitLoop(4000);
+  cont=0
+  
+  }
+  
+  function sliderButton2(){
+  $("#slider-1").fadeOut(400);
+  $("#slider-2").delay(400).fadeIn(400);
+  $("#sButton1").removeClass("bg-purple-800");
+  $("#sButton2").addClass("bg-purple-800");
+  reinitLoop(4000);
+  cont=1
+  
+  }
+
+  $(window).ready(function(){
+      $("#slider-2").hide();
+      $("#sButton1").addClass("bg-purple-800");
+      
+
+      loopSlider();
+  });
+
+
+</script>
 
 <!-- Script Tailwind -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
